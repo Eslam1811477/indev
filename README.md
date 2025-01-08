@@ -14,4 +14,6 @@ To use this tool, clone the repository and ensure you have Python installed with
 ```bash
 git clone https://github.com/Eslam1811477/indev
 cd indev
+pip freeze > requirements.txt
+pip install -r requirements.txt
 pip install

@@ -1,35 +1,11 @@
 import pyfiglet
+from wpet import wpet
 
 fig = pyfiglet.Figlet(font='slant')
 print(fig.renderText("Indev"))
-
-
 print('Methods:')
 print('1. Export WordPress Theme')
 print('\n')
-
-
-
-def wpet():
-    print('Welcome To "Export Theme" Method 😊😊😊\n')
-    hmn2 = True
-    while hmn2:
-        theme_path = input('Please Inter Theme Path : ')
-        if(len(theme_path) != 0):
-            print('smm')
-            hmn2 = False
-        else:
-            print('Unexpected Inputs !!')
-
-
-
-
-
-
-
-
-
-
 
 
 
