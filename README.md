@@ -17,3 +17,5 @@ cd indev
 pip freeze > requirements.txt
 pip install -r requirements.txt
 pip install
+
+python -m PyInstaller --add-data "C:\\Users\\eslam\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python312\\site-packages\\pyfiglet/fonts;pyfiglet/fonts" --onefile --icon=ex.ico indev.py
